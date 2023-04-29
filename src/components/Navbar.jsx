@@ -1,13 +1,23 @@
 import React from "react";
+import { useState } from "react";
 
 const Navbar = () => {
+    // const [dropdown, setDropdown] = useState[false]
+
+
+
+
+
     return ( 
         <div className="Navbar">
-            <h3> Demos </h3>
+            <button> Demos </button>
             <br/>
-            <h3> Tech Blogs</h3>
+            <button 
+            // onClick = {() => setDropdown(!dropdown)}
+            > Blogs </button>
+            {/* {dropdown && <p>Toggle is true!</p>} */}
             <br/> 
-            <h3> creative work/hobbies </h3>
+            <button> creative work/hobbies </button>
          </div>
      );
 }
