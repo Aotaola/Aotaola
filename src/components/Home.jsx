@@ -3,7 +3,6 @@ import React from "react";
 const Home = () => {
     return ( 
         <div className="Home">
-
             <h2>Software Engineer</h2>
             <p className="Bio">
                 Experienced Software Engineer with a demonstrated ability

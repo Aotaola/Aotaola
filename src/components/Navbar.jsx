@@ -1,23 +1,18 @@
 import React from "react";
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    // const [dropdown, setDropdown] = useState[false]
-
-
-
-
-
     return ( 
         <div className="Navbar">
-            <button> Demos </button>
+            <nav>
+            <Link to="/Home">Home</Link> 
             <br/>
-            <button 
-            // onClick = {() => setDropdown(!dropdown)}
-            > Blogs </button>
-            {/* {dropdown && <p>Toggle is true!</p>} */}
+             <Link to="/Resume">CV</Link> 
+            <br/>
+             <Link to="/Blog"> Blogs</Link> 
             <br/> 
-            <button> creative work/hobbies </button>
+             <Link to= "/artwork">Creative work</Link>
+            </nav>
          </div>
      );
 }
