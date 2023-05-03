@@ -1,23 +1,31 @@
 .App {
-  background-color: #d4d4d4;
+  padding-left: 10rem;
+  background-color: #1b1919;
   font-size: 1.5rem;
   font-family: 'motor';
   font-weight: 700;
-  color: rgb(71, 71, 100);
+  color: rgb(105, 105, 107);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
+}
+.Nav-container {
+  background-color: blue;
+
+}
+.Page-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'motor';
+  color: blue;
 }
 
 .App-body {
   display: flex;
-  flex: 1; /* footer sticks to the bottom */
+  flex: 1; 
   border: 1px solid rgb(20, 20, 239);
 }
-/* * {
-  border: 1px solid rgb(177, 176, 176);
-} */
 
 
 .App-header {
@@ -25,21 +33,49 @@
   padding: 1rem;
   width: 100%;
   margin-bottom: 2rem;
-  /* border: 1px solid rgb(20, 20, 239); */
+ 
 }
 
 .Navbar {
-  flex: 0 0 30%;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
   background-color: #cbcbcb;
-  /* border-radius: 5px; */
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-  /* border: 1px solid rgb(20, 20, 239); */
+  border: 1px solid rgb(20, 20, 239);
 }
+
+.Navbar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Navbar button {
+  font-size: 1.5rem;
+  color: blue;
+  margin-right: 1rem;
+  background-color: #d5cfcf;
+  border: 1px solid rgb(158, 158, 161);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Navbar button:hover {
+ border-color: blue;
+ border-radius: 1rem;
+ border-width: 2px;
+}
+
+
 
 .Home {
   margin-top: 1rem;
-  margin: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   border: rgb(19, 19, 24);
   border: 1rem;
   font-size: 20px;
@@ -47,26 +83,19 @@
   font-style: italic;
   align-items: left;
   flex: 60%;
-  padding: 1rem;
+  padding: 4rem;
   background-color: #fff;
   border-radius: 2px;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-  border: 1px solid rgb(20, 20, 239)
+  border: 1px solid rgb(0, 0, 255)
 }
 
 .Bio {
   align-items: left;
-  margin-right: 12rem;
-  margin-left: 3rem;
+  margin-right: 8rem;
+  margin-left: 8rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding: 3rem;
   border: 1px solid rgb(20, 20, 239);
 }
 
-.Footer {
-  padding: 1rem;
-  background-color: #cbcbcb;
-  /* border-radius: 5px; */
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-  text-align: center;
-}

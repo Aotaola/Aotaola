@@ -2,8 +2,11 @@ import React from "react";
 
 const Home = () => {
     return ( 
-        <div className="Home">
-            <h2>Software Engineer</h2>
+        < >
+            <div className="Page-title">
+              <h1>Software Engineer</h1>
+            </div>
+            <div className="Home">
             <p className="Bio">
                 Experienced Software Engineer with a demonstrated ability
                  to build robust applications and create comprehensive front-end 
@@ -11,7 +14,8 @@ const Home = () => {
                  management skills that enable effective project management and seamless
                 collaboration within teams.
             </p>
-        </div>
+            </div>
+        </>
      );
 }
  
