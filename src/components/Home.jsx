@@ -2,11 +2,15 @@ import React from "react";
 import profile_pic from "./images/profile_pic.png";
 
 
+
 const Home = () => {
+
+
+
     return ( 
         < >
           <div className="Page-title">
-  <h1>Software Engineer</h1>
+  <h1>About Alejandro </h1>
 </div>
 <div className="Home">
   <div className="Content">
@@ -23,6 +27,9 @@ const Home = () => {
     <img src={profile_pic} alt="profile of Alejandro Otaola" />
   </div>
 </div>
+        <div>
+           
+        </div>
   
         </>
      );

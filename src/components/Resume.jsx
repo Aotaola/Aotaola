@@ -1,22 +1,16 @@
 import React from "react";
-// import { useState, useEffect } from "react";
-const Resume = (cv) => {
+import Otaola_resume from "./files/Otaola_resume..pdf";
+import PdfView from "./PdfView.jsx";
 
-    console.log(cv)
-    
+const Resume = () => {
 
-
- 
     return (
         <div className="Page-title">
             <h1> CV </h1>
             <br/>
-
-            <div>
-            
+            <div className = "Resume_container">
+            <PdfView file = {Otaola_resume}/>
             </div>
-
-            
         </div>
       );
 }
