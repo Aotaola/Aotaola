@@ -22,7 +22,7 @@
 }
 
 .App-body {
-  display: flex;
+  display: inline-block;
   flex: 1; 
   border: 1px solid rgb(20, 20, 239);
 }
@@ -98,4 +98,26 @@
   padding: 3rem;
   border: 1px solid rgb(20, 20, 239);
 }
+
+.Home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Content {
+  /* Add any additional styles for your content here */
+}
+
+.Profile-pic {
+  align-self: center;
+}
+
+.Profile-pic img {
+  width: 20rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 04%; /* Optional: To make the image round */
+}
+
 

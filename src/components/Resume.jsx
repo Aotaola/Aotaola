@@ -3,7 +3,7 @@ const Resume = () => {
 
     return (
         <div className="Page-title">
-            <h1>THIS IS A CV PAGE</h1>
+            <h1> CV </h1>
         </div>
       );
 }
