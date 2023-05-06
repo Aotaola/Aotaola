@@ -66,8 +66,8 @@
 
 .Navbar button:hover {
  border-color: blue;
- border-radius: 1rem;
- border-width: 2px;
+ border-radius: 04%;
+ border-width: 1px;
 }
 
 
@@ -105,9 +105,7 @@
   align-items: center;
 }
 
-.Content {
-  /* Add any additional styles for your content here */
-}
+
 
 .Profile-pic {
   align-self: center;
@@ -117,7 +115,7 @@
   width: 20rem;
   height: auto;
   object-fit: cover;
-  border-radius: 04%; /* Optional: To make the image round */
+  border-radius: 04%; 
 }
 
 
