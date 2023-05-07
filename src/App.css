@@ -47,9 +47,6 @@
 
 .Navbar nav {
   display: flex; 
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* margin: 0 auto; */
 }
 
 .Home_Route {
@@ -93,14 +90,13 @@ div .Home{
   margin-left: 10rem;
   margin-right: 10rem;
   border: rgb(19, 19, 24);
-  border: 1rem;
   font-size: 20px;
   font-family: 'motor';
   font-style: italic;
   align-items: left;
   flex: 60%;
   padding: 4rem;
-  background-color: #fff;
+  background-color: #dddddd;
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255)
 }
@@ -156,6 +152,79 @@ canvas .react-pdf__Page__canvas {
 }
 .react-pdf__Page__textContent {
   display: none;
+}
+
+.Language_Container {
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border: rgb(19, 19, 24);
+  border: 1rem;
+  font-size: 20px;
+  font-family: 'motor';
+  font-style: italic;
+  align-items: left;
+  flex: 100%;
+  padding: 4rem;
+  background-color: #dddddd;
+  border-radius: 2px;
+  border: 1px solid rgb(0, 0, 255)  
+
+}
+.language_tech_content { 
+  margin-top: flex;
+  margin-left: 1rem;
+  margin-right: flex;
+  border: rgb(19, 19, 24);
+  border: 1rem;
+  font-size: 20px;
+  font-family: 'motor';
+  font-style: italic;
+  align-items: left;
+  flex: 100%;
+  padding: 4rem;
+  background-color: #dddddd;
+  border-radius: 2px;
+  border: 1px solid rgb(0, 0, 255)
+  
+}
+
+.tools_container {
+
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border: rgb(19, 19, 24);
+  border: 1rem;
+  font-size: 20px;
+  font-family: 'motor';
+  font-style: italic;
+  align-items: left;
+  flex: 100%;
+  padding: 4rem;
+  background-color: #dddddd;
+  border-radius: 2px;
+  border: 1px solid rgb(0, 0, 255) 
+
+}
+
+.tech_content {
+  
+  margin-top: flex;
+  margin-left: 1rem;
+  margin-right: flex;
+  border: rgb(19, 19, 24);
+  border: 1rem;
+  font-size: 20px;
+  font-family: 'motor';
+  font-style: italic;
+  align-items: left;
+  flex: 100%;
+  padding: 4rem;
+  background-color: #dddddd;
+  border-radius: 2px;
+  border: 1px solid rgb(0, 0, 255)
+
 }
 
 
