@@ -132,4 +132,30 @@ div .Home{
   border-radius: 04%; 
 }
 
+.Page-title {
+  display: flex;
+  justify-content: center;
+}
+
+.Resume_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Adjust the height according to your preference */
+  height: calc(100vh - 100px);
+}
+
+div .react-pdf__Page__canvas{
+  position : relative;
+  z-index: 1;
+}
+
+canvas .react-pdf__Page__canvas {
+  position: relative;
+  z-index: -1;
+}
+.react-pdf__Page__textContent {
+  display: none;
+}
+
 
