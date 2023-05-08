@@ -1,5 +1,5 @@
 import React from "react";
-import Otaola_resume from "./files/Otaola_resume..pdf";
+import Otaola_Alejandro_Resume from "./files/Otaola_Alejandro_Resume.pdf";
 import PdfView from "./PdfView.jsx";
 
 const Resume = () => {
@@ -11,7 +11,7 @@ const Resume = () => {
             <br/>
         </div>
         <div className = "Resume_container">
-            <PdfView file = {Otaola_resume}/>
+            <PdfView file = {Otaola_Alejandro_Resume}/>
         </div>
         <br/>
         </>
