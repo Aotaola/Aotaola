@@ -36,14 +36,23 @@
  
 }
 
-.Navbar {
+div .Navbar {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 1.5rem;
-  background-color: #767676;
+  background-color: #494848;
   border: 1px solid rgb(20, 20, 239);
+  position:relative;
 }
+a {
+  color: rgb(54, 54, 54);
+}
+ a:hover {
+  color: blue;
+ }
+ a:active{
+  color:rgb(127, 172, 255)
+ }
 
 .Navbar nav {
   display: flex; 
