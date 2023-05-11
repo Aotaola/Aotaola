@@ -17,43 +17,49 @@ import vscodeLogo from "./images/vscodeLogo.png";
 const Home = () => {
 
     return (
+        
         <>
-         <div className="Page-title">
-             <h1>About Alejandro </h1>
-        </div>
+
         <div className="Home">
+         
              <div className="Content">
+
                 <p className="Bio">
                  Experienced Software Engineer with a demonstrated ability to build robust applications and create
                  comprehensive front-end and back-end functionality. Possesses strong entrepreneurial and management
                  skills that enable effective project management and seamless collaboration within teams.
                 </p>
+
                     <br></br>
             </div>
+
             <div className="Profile-pic">
                 <img src={profile_pic} alt="profile of Alejandro Otaola" />
             </div>
         </div>
-        <div className="Language_Container">
-            <h4 className = "languages">Languages & frameworks</h4>
-            <div className="language_tech_content">
-                 <img src={rubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
 
-                <img src={javascriptLogo} alt="Javascript" title="Javascript" className="language_tools_block" />
+        <div className = "language_technology_container">
 
-                <img src={sqlLogo} alt="SQL" title="SQL" className="language_tools_block" />
+            <div className="Language_Container">
+                <h4 className = "content_title">Languages & frameworks</h4>
+                <div className="language_tech_content">
 
-                <img src={htmlLogo} alt="HTML" title="HTML" className="language_tools_block" />
+                    <img src={rubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
+
+                    <img src={javascriptLogo} alt="Javascript" title="Javascript" className="language_tools_block" />
+
+                    <img src={sqlLogo} alt="SQL" title="SQL" className="language_tools_block" />
+
+                    <img src={htmlLogo} alt="HTML" title="HTML" className="language_tools_block" />
                 
-                 <img src={cssLogo} alt="CSS" title="CSS" className="language_tools_block" />
-        </div>
+                     <img src={cssLogo} alt="CSS" title="CSS" className="language_tools_block" />
 
-            
-        </div>
+                 </div>
+            </div>  
 
-        <div className="tools_container">
-            <h4 className = "ToolsAndTech">Tools & Technologies</h4>
-                 <div className = "language_tech_content">
+            <div className="Language_Container">
+                <h4 className = "content_title">Tools & Technologies</h4>
+                <div className = "language_tech_content">
                     
                          <img src={RoR} alt="Rails" title="Rails" className="language_tools_block" />
 
@@ -68,8 +74,9 @@ const Home = () => {
                          <img src={gitLogo} alt="Github" title="Github" className="language_tools_block" />
 
                         <img src={vscodeLogo} alt="VsCode" title="VsCode" className="language_tools_block" />
-                     </div>
-                 </div>
+                    </div>
+                </div>
+        </div>
         <br></br>
         
         </>

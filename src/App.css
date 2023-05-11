@@ -163,9 +163,9 @@ canvas .react-pdf__Page__canvas {
 }
 
 .Language_Container {
-  margin-top: 1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-top: .5rem;
+  margin-left: .5rem;
+  margin-right: none;
   border: rgb(19, 19, 24);
   border: 1rem;
   font-size: 20px;
@@ -187,38 +187,21 @@ canvas .react-pdf__Page__canvas {
   font-family: 'motor';
   font-style: italic;
   align-items: left;
+  text-align: center;
   flex: 100%;
   padding: .2rem;
   background-color: #dddddd;
   border-radius: 2px;
-  border: 1px solid rgb(0, 0, 255)
+  border: 1px solid rgb(0, 0, 255);
   
-}
-
-.tools_container {
-
-  margin-top: 1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  border: rgb(19, 19, 24);
-  border: 1rem;
-  font-size: 20px;
-  font-family: 'motor';
-  font-style: italic;
-  align-items: left;
-  flex: 100%;
-  padding: 4rem;
-  background-color: #dddddd;
-  border-radius: 2px;
-  border: 1px solid rgb(0, 0, 255) 
-
+  
 }
 
 .tech_content {
   
   
   margin-top: flex;
-  margin-left: .5rem;
+  margin-left: none;
   margin-right: flex;
   font-size: 20px;
   font-family: 'motor';
@@ -232,8 +215,8 @@ canvas .react-pdf__Page__canvas {
   
 
 }
-.language_tools_block {
-
+ .language_tools_block {
+  
   max-width: 100px; 
   max-height: 100px; 
   object-fit: contain;
@@ -243,6 +226,24 @@ canvas .react-pdf__Page__canvas {
   position: relative;
 
 }
+.content_title {
+  text-align: center;
+}
+.language_technology_container {
+  display: flex;
+  margin-left : 6rem;
+  margin-right : 6rem;
+}
+
+img .language_tool_block {
+  background-color: transparent;
+  border: none;
+
+}
+
+
+
+
 
 
 
