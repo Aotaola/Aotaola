@@ -17,7 +17,7 @@ import vscodeLogo from "./images/vscodeLogo.png";
 const Home = () => {
 
     return (
-        
+
         <>
 
         <div className="Home">
@@ -57,7 +57,7 @@ const Home = () => {
                  </div>
             </div>  
 
-            <div className="Language_Container">
+            <div className="Tech_Container">
                 <h4 className = "content_title">Tools & Technologies</h4>
                 <div className = "language_tech_content">
                     
