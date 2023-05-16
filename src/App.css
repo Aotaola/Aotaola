@@ -4,13 +4,13 @@
   font-size: 1.5rem;
   font-family: 'motor';
   font-weight: 700;
-  color: rgb(71, 71, 71);
+  color: rgb(10, 18, 80);
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 }
 .Nav-container {
-  background-color: blue;
+  background-color: rgb(30, 0, 255);
 
 }
 .Page-title {
@@ -24,7 +24,7 @@
 .App-body {
   display: inline-block;
   flex: 1; 
-  border: 1px solid rgb(20, 20, 239);
+  border: 1px solid rgb(0, 0, 255);
 }
 
 
@@ -87,17 +87,17 @@ a {
  }
 
 div {
-  background-color: #dddddd;
+  background-color: #fafafa;
 }
 div .Home{
-  background-color: #dddddd;
+  background-color: #fafafa;
  }
 
 
 .Home {
   margin-top: 1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
   border: rgb(19, 19, 24);
   font-size: 20px;
   font-family: 'motor';
@@ -105,7 +105,7 @@ div .Home{
   align-items: left;
   flex: 60%;
   padding: 1rem;
-  background-color: #eeeeee;
+  background-color: #0b59f4;
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255)
 }
@@ -173,12 +173,12 @@ canvas .react-pdf__Page__canvas {
   font-style: italic;
   align-items: left;
   flex: 100%;
-  padding: 4rem;
-  background-color: #dddddd;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  background-color: #fafafa;
   border-radius: 2px;
-  border: 1px solid rgb(0, 0, 255)  ;
- 
-
+  border: 1px solid rgb(0, 0, 255);
 }
 
 .Tech_Container {
@@ -192,8 +192,10 @@ canvas .react-pdf__Page__canvas {
   font-style: italic;
   align-items: left;
   flex: 100%;
-  padding: 4rem;
-  background-color: #dddddd;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255)  ;
  
@@ -210,7 +212,7 @@ canvas .react-pdf__Page__canvas {
   text-align: center;
   flex: 100%;
   padding: .2rem;
-  background-color: #dddddd;
+  background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255);
   
@@ -218,8 +220,6 @@ canvas .react-pdf__Page__canvas {
 }
 
 .tech_content {
-  
-  
   margin-top: flex;
   margin-left: none;
   margin-right: flex;
@@ -229,11 +229,9 @@ canvas .react-pdf__Page__canvas {
   align-items: left;
   flex: 100%;
   padding: .2rem;
-  background-color: #dddddd;
+  background-color: transparent transparent transparent;
   border-radius: 1px;
   border: 1px solid rgb(0, 0, 255);
-  
-
 }
  .language_tools_block {
   
@@ -251,19 +249,14 @@ canvas .react-pdf__Page__canvas {
 }
 .language_technology_container {
   display: flex;
-  margin-left : 10rem;
-  margin-right : 10rem;
+  margin-left : 8rem;
+  margin-right : 8rem;
   justify-content: space-between
 }
 
 img .language_tool_block {
-  background-color: transparent;
+  background-color: #fafafa;
   border: none;
-
-}
-cv_container {
-  position: relative;
-  z-index: -1;
 }
 
 .button_container {

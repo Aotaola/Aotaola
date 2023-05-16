@@ -25,6 +25,7 @@ const Home = () => {
              <div className="Content">
 
                 <p className="Bio">
+                    <h3>About Alejandro: </h3>
                  Experienced Software Engineer with a demonstrated ability to build robust applications and create
                  comprehensive front-end and back-end functionality. Possesses strong entrepreneurial and management
                  skills that enable effective project management and seamless collaboration within teams.
