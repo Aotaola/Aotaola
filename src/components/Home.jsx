@@ -60,21 +60,22 @@ const Home = () => {
 
             <div className="Tech_Container">
                 <h4 className = "content_title">Tools & Technologies</h4>
-                <div className = "language_tech_content">
+                <div className = "tech_content">
                     
-                         <img src={RoR} alt="Rails" title="Rails" className="language_tools_block" />
+                         <img src={RoR} alt="Rails" title="Rails" className="tech_tools_block" />
 
-                         <img src={reactLogo} alt="React" title="React" className="language_tools_block" />
+                         <img src={reactLogo} alt="React" title="React" className="tech_tools_block" />
 
-                         <img src={OAuthLogo} alt="OAuth" title="OAuth" className="language_tools_block" />
 
-                         <img src={apiLogo} alt="API" title="API" className="language_tools_block" />
+                         <img src={OAuthLogo} alt="OAuth" title="OAuth" className="tech_tools_block" />
 
-                         <img src={BsLogo} alt="Bash/Shell" title="Bash/Shell" className="language_tools_block" />
+                         <img src={apiLogo} alt="API" title="API" className="tech_tools_block" />
 
-                         <img src={gitLogo} alt="Github" title="Github" className="language_tools_block" />
+                         <img src={BsLogo} alt="Bash/Shell" title="Bash/Shell" className="tech_tools_block" />
 
-                        <img src={vscodeLogo} alt="VsCode" title="VsCode" className="language_tools_block" />
+                         <img src={gitLogo} alt="Github" title="Github" className="tech_tools_block" />
+
+                        <img src={vscodeLogo} alt="VsCode" title="VsCode" className="tech_tools_block" />
                     </div>
                 </div>
         </div>
