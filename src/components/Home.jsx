@@ -1,6 +1,6 @@
 import React from "react";
 import profile_pic from "./images/profile_pic.png";
-import rubyLogo from "./images/rubyLogo.png";
+import RubyLogo from "./images/RubyLogo.png";
 import javascriptLogo from "./images/javascriptLogo.png";
 import sqlLogo from "./images/sqlLogo.png";
 import htmlLogo from "./images/htmlLogo.png";
@@ -45,7 +45,7 @@ const Home = () => {
                 <h4 className = "content_title">Languages & frameworks</h4>
                 <div className="language_tech_content">
 
-                    <img src={rubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
+                    <img src={RubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
 
                     <img src={javascriptLogo} alt="Javascript" title="Javascript" className="language_tools_block" />
 
