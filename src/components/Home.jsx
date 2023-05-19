@@ -12,6 +12,7 @@ import apiLogo from "./images/apiLogo.png";
 import BsLogo from "./images/BsLogo.png";
 import gitLogo from "./images/gitLogo.png";
 import vscodeLogo from "./images/vscodeLogo.png";
+import PostgreSQL_logo from "./images/PostgreSQL_logo.png";
 
 
 
@@ -76,7 +77,10 @@ const Home = () => {
 
                          <img src={gitLogo} alt="Github" title="Github" className="tech_tools_block" />
 
-                        <img src={vscodeLogo} alt="VsCode" title="VsCode" className="tech_tools_block" />
+                        <img src={vscodeLogo} alt="VsCode" title="VsCode" className="language_tools_block" />
+                        
+                        <img src={PostgreSQL_logo} alt="PostgreSQL_logo" title="PostgreSQL" className="language_tools_block"/>
+
                     </div>
                 </div>
         </div>

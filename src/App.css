@@ -1,5 +1,15 @@
 
-.App  {
+#root {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  color: #333;
+  font-family: 'motor';
+}
+.App {
   padding-left: 10rem;
   background-color: #fafafa;
   font-size: 1.5rem;
@@ -195,7 +205,7 @@ canvas .react-pdf__Page__canvas {
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  scroll-padding-bottom: 1rem;
+  
   background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255);
@@ -216,11 +226,10 @@ canvas .react-pdf__Page__canvas {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
-  background-color: transparent;
+  padding-bottom: 1rem;
+  background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255)  ;
- 
-
 }
 .language_tech_content { 
   margin-top: flex;
@@ -255,8 +264,17 @@ canvas .react-pdf__Page__canvas {
   border: 1px solid rgb(0, 0, 255);
 }
 
-.tech_tools_block {
+.language_tools_block {
+  width: 80px; 
+  height: 80px; 
+  object-fit: contain;
+  margin: 10px;
+  display: inline-block; 
+  justify-content: left;
+  position: relative;
+}
 
+.tech_tools_block{
   width: 80px; 
   height: 80px; 
   object-fit: contain;
@@ -272,8 +290,6 @@ canvas .react-pdf__Page__canvas {
   border-radius: 4%;
   border: 1px solid rgb(0, 42, 255);
 }
-
-
 
 .language_tools_block {
   
@@ -292,6 +308,7 @@ canvas .react-pdf__Page__canvas {
   border-radius: 4%;
   border: 1px solid rgb(0, 0, 255);
 }
+
 .content_title {
   text-align: center;
   margin-top: 0%;
