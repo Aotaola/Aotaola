@@ -1,10 +1,10 @@
 import React from "react";
 import profile_pic from "./images/profile_pic.png";
-import rubyLogo from "./images/rubyLogo.png";
+import RubyLogo from "./images/RubyLogo.png";
 import javascriptLogo from "./images/javascriptLogo.png";
-import sqlLogo from "./images/sqlLogo.png";
-import htmlLogo from "./images/htmlLogo.png";
-import cssLogo from "./images/cssLogo.png"; 
+import sqlLOGO from "./images/sqlLOGO.png";
+import htmlLOGO from "./images/htmlLOGO.png";
+import cssLOGO from "./images/cssLOGO.png"; 
 import RoR from "./images/RoR.png";
 import reactLogo from "./images/reactLogo.png";
 import OAuthLogo from "./images/OAuth.png";
@@ -12,6 +12,7 @@ import apiLogo from "./images/apiLogo.png";
 import BsLogo from "./images/BsLogo.png";
 import gitLogo from "./images/gitLogo.png";
 import vscodeLogo from "./images/vscodeLogo.png";
+
 
 
 const Home = () => {
@@ -45,15 +46,15 @@ const Home = () => {
                 <h4 className = "content_title">Languages & frameworks</h4>
                 <div className="language_tech_content">
 
-                    <img src={rubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
+                    <img src={RubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
 
                     <img src={javascriptLogo} alt="Javascript" title="Javascript" className="language_tools_block" />
 
-                    <img src={sqlLogo} alt="SQL" title="SQL" className="language_tools_block" />
+                    <img src={sqlLOGO} alt="SQL" title="SQL" className="language_tools_block" />
 
-                    <img src={htmlLogo} alt="HTML" title="HTML" className="language_tools_block" />
+                    <img src={htmlLOGO} alt="HTML" title="HTML" className="language_tools_block" />
                 
-                     <img src={cssLogo} alt="CSS" title="CSS" className="language_tools_block" />
+                     <img src={cssLOGO} alt="CSS" title="CSS" className="language_tools_block" />
 
                  </div>
             </div>  

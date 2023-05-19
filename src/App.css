@@ -230,7 +230,7 @@ canvas .react-pdf__Page__canvas {
   font-family: 'motor';
   font-style: italic;
   align-items: left;
-  text-align: center;
+  text-align: left;
   flex: 100%;
   padding: 0rem;
   background-color: #fafafa;
@@ -262,13 +262,13 @@ canvas .react-pdf__Page__canvas {
   object-fit: contain;
   margin: 10px;
   display: inline-block; 
-  justify-content: center;
+  justify-content: left;
   position: relative;
 }
 
 .tech_tools_block:hover {
-  width: 85px; 
-  height: 85px; 
+  width: 80px; 
+  height: 80px; 
   border-radius: 4%;
   border: 1px solid rgb(0, 42, 255);
 }
@@ -282,13 +282,13 @@ canvas .react-pdf__Page__canvas {
   object-fit: contain;
   margin: 10px;
   display: inline-block; 
-  justify-content: center;
+  justify-content: left;
   position: relative;
 }
 
 .language_tools_block:hover {
-  width: 85px;
-  height: 85px; 
+  width: 80px;
+  height: 80px; 
   border-radius: 4%;
   border: 1px solid rgb(0, 0, 255);
 }
