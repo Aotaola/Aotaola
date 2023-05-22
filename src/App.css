@@ -333,13 +333,13 @@ img .language_tool_block {
 }
 
 .button_container button{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: rgb(235, 235, 243);
-  margin-right: 1rem;
+  margin-right: .2rem;
   background-color: #cfcfcf;
   border: 1px solid rgb(174, 173, 173);
   border-radius: 4px;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem .5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 
@@ -353,6 +353,6 @@ img .language_tool_block {
 
 .button_container button:active {
   border-color: rgb(244, 245, 247);
-  border-radius: 04%;
+  border-radius: 0;
   border-width: 1px;
  }
