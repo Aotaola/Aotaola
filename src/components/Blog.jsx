@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import BlogContainer from "./BlogContainer";
 
 const Blog = () => {
   const [blog, setBlog] = useState([])
@@ -18,7 +19,9 @@ const Blog = () => {
       <>
       <div className="Page-title">
         <h1> BLOG </h1>
+        <br/>
       </div>
+        <BlogContainer/>
       </>
       );
 }
