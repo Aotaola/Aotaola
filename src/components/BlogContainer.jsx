@@ -7,7 +7,7 @@ const BlogContainer = () => {
     const [blogs, setBlogs] = useState([])
 
   const fetchblog = async() => {
-    const req = await fetch("http://127.0.0.1:3000/blogs/")
+    const req = await fetch("http://127.0.0.1:4000/blogs/")
     const res = await req.json()
 
     setBlogs(res)
@@ -29,6 +29,7 @@ const BlogContainer = () => {
             )
           })
         }
+        <BlogCard/>
         </div>
         </>
       );
