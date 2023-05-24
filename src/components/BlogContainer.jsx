@@ -17,19 +17,17 @@ const BlogContainer = () => {
     fetchblog()
   },[])
   
+  const blogmap = blogs.map((blog) => {
+    return (
+      <BlogCard key= {blog.id} blog={blog} />
+      )
+    })
     return (
         <>
         <div className="BlogContainer">
           <br/>
           <h1> this is a blog container </h1>
-
-        {blogs.map((blog) => {
-          return (
-            <BlogCard key= {blog.id} blog={blog} />
-            )
-          })
-        }
-        <BlogCard/>
+          {blogmap}
         </div>
         </>
       );

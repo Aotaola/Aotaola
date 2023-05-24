@@ -1,20 +1,22 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import BlogContainer from "./BlogContainer";
+import { useState, useEffect } from "react"
 
 const Blog = () => {
-  const [blog, setBlog] = useState([])
+
+  const [blogs, setBlogs] = useState([])
 
   const fetchblog = async() => {
-    const req = await fetch("https://medium.com/@alejelias")
+    const req = await fetch("http://127.0.0.1:4000/blogs/")
     const res = await req.json()
 
-    setBlog(res)
+    setBlogs(res)
     console.log(res)
   }
   useEffect(() =>{
     fetchblog()
   },[])
+  
     return (
       <>
       <div className="Page-title">
