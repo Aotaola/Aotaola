@@ -14,12 +14,15 @@ const Navbar = () => {
             </button>
             <br/>
             <button>
+               < Link to = "/Contact">Contact</Link>
+            </button> 
+            {/* <button>
              <Link to="/Blog"> Blogs</Link> 
-            </button>
-            <br/> 
-            <button>
+            </button> */}
+            {/* <br/>  */}
+            {/* <button>
              <Link to= "/artwork">Creative work</Link>
-            </button>
+            </button> */}
             </nav>
          </div>
      );

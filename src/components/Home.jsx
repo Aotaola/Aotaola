@@ -13,10 +13,19 @@ import BASH_SHELL from "./images/BASH_SHELL.png";
 import Github_LOGO from "./images/Github_LOGO.png";
 import vscodeLOGO from "./images/vscodeLOGO.png";
 import PostgreSQL_logo from "./images/PostgreSQL_logo.png";
+import { useState, useEffect } from "react";
 
 
 
 const Home = () => {
+
+    const [readMore, setReadMore] = useState(false)
+
+    const  handleSwitch = () => {
+        setReadMore(readMore => !readMore);
+    };
+
+
 
     return (
 
@@ -28,11 +37,19 @@ const Home = () => {
 
                 <p className="Bio">
                     <h3>About Alejandro: </h3>
-                 Experienced Software Engineer with a demonstrated ability to build robust applications and create
-                 comprehensive front-end and back-end functionality. Possesses strong entrepreneurial and management
-                 skills that enable effective project management and seamless collaboration within teams.
+                 Hello, Im Alejandro Otaola. I am a Software Engineer based in the United states originally from Venezuela.
+                 bellow you will find some of the technologies, languages and frameworks can succesfully use in software development. 
+                 feel free to browse through and learn more about my journey and perhasps we shall collaborate in the future.
                 </p>
-
+                <button onClick={handleSwitch}> click for more ... </button>
+                {readMore ? (
+                <p> My experience outside of technology is quite varied, I started my proffesional journey by majoring in International Business administration & marketing
+                    at Thomas Jefferson University, following my junior year, I decided to chase a dream of mine to become a career artist. Thanks to my background in business administration I was able to build an sustain a small business 
+                    as an artist selling merchandise as well as large art works. after persuing my creative entreprise, Grayota.com, I felt a yearning for a more technical 
+                    discipline, and through many friends in the field of software, I decided to sink my teeth into full-stack development, where I am currently pursuing a career.
+                    my expereinces have lead me to become an extreamly resourcefull and wholly dedicated person once I have a goal in mind as well as a solidified my passion for the arts 
+                    culture and most recently how AI will be influencing all mediums and alterning industries in the future. In my heart of hearts, I want to collaborate on something that moves society forward! </p>
+                ) : ( <p> Click for more ... </p>)}
                     <br></br>
             </div>
 
