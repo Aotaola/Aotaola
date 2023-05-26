@@ -13,7 +13,8 @@ import BASH_SHELL from "./images/BASH_SHELL.png";
 import Github_LOGO from "./images/Github_LOGO.png";
 import vscodeLOGO from "./images/vscodeLOGO.png";
 import PostgreSQL_logo from "./images/PostgreSQL_logo.png";
-import { useState, useEffect } from "react";
+import Agile_logo from "./images/Agile_logo.png";
+import { useState } from "react";
 
 
 
@@ -40,8 +41,8 @@ const Home = () => {
                  Hello, Im Alejandro Otaola. I am a Software Engineer based in the United states originally from Venezuela.
                  bellow you will find some of the technologies, languages and frameworks can succesfully use in software development. 
                  feel free to browse through and learn more about my journey and perhasps we shall collaborate in the future.
-                </p>
-                <button onClick={handleSwitch}> click for more ... </button>
+                <br/>
+                <button onClick={handleSwitch} className="moreButton"> ... </button>
                 {readMore ? (
                 <p> My experience outside of technology is quite varied, I started my proffesional journey by majoring in International Business administration & marketing
                     at Thomas Jefferson University, following my junior year, I decided to chase a dream of mine to become a career artist. Thanks to my background in business administration I was able to build an sustain a small business 
@@ -49,8 +50,9 @@ const Home = () => {
                     discipline, and through many friends in the field of software, I decided to sink my teeth into full-stack development, where I am currently pursuing a career.
                     my expereinces have lead me to become an extreamly resourcefull and wholly dedicated person once I have a goal in mind as well as a solidified my passion for the arts 
                     culture and most recently how AI will be influencing all mediums and alterning industries in the future. In my heart of hearts, I want to collaborate on something that moves society forward! </p>
-                ) : ( <p> Click for more ... </p>)}
+                ) : null}
                     <br></br>
+                </p>
             </div>
 
             <div className="Profile-pic">
@@ -75,17 +77,21 @@ const Home = () => {
                      <img src={cssLOGO} alt="CSS" title="CSS" className="language_tools_block" />
 
                  </div>
+                 <br></br>
+                 <h4 className = "content_title">Frameworks</h4>
+                 <div className="language_tech_content">
+
+                 <img src={RoR} alt="Rails" title="Rails" className="tech_tools_block" />
+
+                 <img src={ReactLOGO} alt="React" title="React" className="tech_tools_block" />  
+
+                 </div>
             </div>  
 
             <div className="Tech_Container">
                 <h4 className = "content_title">Tools & Technologies</h4>
                 <div className = "tech_content">
                     
-                         <img src={RoR} alt="Rails" title="Rails" className="tech_tools_block" />
-
-                         <img src={ReactLOGO} alt="React" title="React" className="tech_tools_block" />
-
-
                          <img src={OAuthLogo} alt="OAuth" title="OAuth" className="tech_tools_block" />
 
                          <img src={apiLOGO} alt="API" title="API" className="tech_tools_block" />
@@ -99,6 +105,16 @@ const Home = () => {
                         <img src={PostgreSQL_logo} alt="PostgreSQL_logo" title="PostgreSQL" className="language_tools_block"/>
 
                     </div>
+                    <br/>
+                    <h4 className = "content_title">Tools & Technologies</h4>
+
+                    <div className = "tech_content">
+
+                    <img src={Agile_logo} alt="Agile" title="Agile" className="language_tools_block"/>
+
+                    <img src="https://www.clipartmax.com/png/middle/285-2851044_restful-search-api-rest-web-services-logo.png" alt="Restful Search Api - Rest Web Services Logo@clipartmax.com" className="language_tools_block"></img>
+        
+                     </div>
                 </div>
         </div>
         <br></br>

@@ -356,3 +356,67 @@ img .language_tool_block {
   border-radius: 0;
   border-width: 1px;
  }
+
+ .moreButton {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font: motor;
+  margin-right: .2rem;
+  background-color: #fafafa;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 4px;
+  padding: 0.2rem .5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+ .moreButton:hover {
+  border-color: blue;
+ border-radius: 20%;
+ border-width: 1px;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #6c6c6c;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.ContactForm input,
+.ContactForm textarea {
+  font-size: 1rem;
+  font-family: 'motor';
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.ContactForm button {
+  font-size: 1rem;
+  font-family: 'motor';
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: #828282;
+  border: 1px solid rgb(174, 173, 173);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ContactForm button:hover {
+  border-color: blue;
+  border-radius: 04%;
+  border-width: 1px;
+}
+
+.ContactForm button:active {
+  border-color: rgb(244, 245, 247);
+  border-radius: 04%;
+  border-width: 1px;
+}
