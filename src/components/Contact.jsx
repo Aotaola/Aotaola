@@ -72,26 +72,4 @@ const Contact = () => {
     
     export default Contact;
     
-    {/* <form className="ContactForm" onSubmit={handleSubmit}> */}
-    {/* <input 
-        name="name" 
-        type="text" 
-        placeholder="Your name" 
-        value={formState.name} 
-        onChange={handleChange} 
-        />
-    <input 
-        name="email" 
-        type="email" 
-        placeholder="Your email" 
-        value={formState.email} 
-        onChange={handleChange} 
-        />
-    <textarea
-        name="message"
-        placeholder="Your message"
-        value={formState.message}
-        onChange={handleChange}
-        />
-    <button type="submit">Submit</button>
-     </form> */}
+ 
