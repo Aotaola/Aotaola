@@ -6,7 +6,7 @@ import PdfView from "./PdfView.jsx";
 const Resume = () => {
 
     return ( 
-      <>
+      <div>
         <br></br>
         <div className = "button_container">
         <button><a href={Otaola_Alejandro_Resume_NY}>Download Resume</a></button>
@@ -18,9 +18,7 @@ const Resume = () => {
             </div>
         </div>
         <br></br>
-        
-
-        </>
+        </div>
       );
 }
  

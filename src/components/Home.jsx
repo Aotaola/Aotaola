@@ -1,17 +1,17 @@
 import React from "react";
 import profile_pic from "./images/profile_pic.png";
-import RubyLogo from "./images/RubyLogo.png";
+import rubyLogo from "./images/rubyLogo.png";
 import javascriptLogo from "./images/javascriptLogo.png";
-import sqlLOGO from "./images/sqlLOGO.png";
-import htmlLOGO from "./images/htmlLOGO.png";
-import cssLOGO from "./images/cssLOGO.png"; 
+import sqlLogo from "./images/sqlLogo.png";
+import htmlLogo from "./images/htmlLogo.png";
+import cssLogo from "./images/cssLogo.png"; 
 import RoR from "./images/RoR.png";
-import ReactLOGO from "./images/ReactLOGO.png";
+import reactLogo from "./images/reactLogo.png";
 import OAuthLogo from "./images/OAuth.png";
-import apiLOGO from "./images/apiLOGO.png";
+import apiLogo from "./images/apiLogo.png";
 import BASH_SHELL from "./images/BASH_SHELL.png";
 import Github_LOGO from "./images/Github_LOGO.png";
-import vscodeLOGO from "./images/vscodeLOGO.png";
+import vscodeLogo from "./images/vscodeLogo.png";
 import PostgreSQL_logo from "./images/PostgreSQL_logo.png";
 import Agile_logo from "./images/Agile_logo.png";
 import { useState } from "react";
@@ -66,15 +66,15 @@ const Home = () => {
                 <h4 className = "content_title">Languages</h4>
                 <div className="language_tech_content">
 
-                    <img src={RubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
+                    <img src={rubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
 
                     <img src={javascriptLogo} alt="Javascript" title="Javascript" className="language_tools_block" />
 
-                    <img src={sqlLOGO} alt="SQL" title="SQL" className="language_tools_block" />
+                    <img src={sqlLogo} alt="SQL" title="SQL" className="language_tools_block" />
 
-                    <img src={htmlLOGO} alt="HTML" title="HTML" className="language_tools_block" />
+                    <img src={htmlLogo} alt="HTML" title="HTML" className="language_tools_block" />
                 
-                     <img src={cssLOGO} alt="CSS" title="CSS" className="language_tools_block" />
+                     <img src={cssLogo} alt="CSS" title="CSS" className="language_tools_block" />
 
                  </div>
                  <br></br>
@@ -83,7 +83,7 @@ const Home = () => {
 
                  <img src={RoR} alt="Rails" title="Rails" className="tech_tools_block" />
 
-                 <img src={ReactLOGO} alt="React" title="React" className="tech_tools_block" />  
+                 <img src={reactLogo} alt="React" title="React" className="tech_tools_block" />  
 
                  </div>
             </div>  
@@ -94,13 +94,13 @@ const Home = () => {
                     
                          <img src={OAuthLogo} alt="OAuth" title="OAuth" className="tech_tools_block" />
 
-                         <img src={apiLOGO} alt="API" title="API" className="tech_tools_block" />
+                         <img src={apiLogo} alt="API" title="API" className="tech_tools_block" />
 
                          <img src={BASH_SHELL} alt="Bash/Shell" title="Bash/Shell" className="tech_tools_block" />
 
                          <img src={Github_LOGO} alt="Github" title="Github" className="tech_tools_block" />
 
-                        <img src={vscodeLOGO} alt="VsCode" title="VsCode" className="language_tools_block" />
+                        <img src={vscodeLogo} alt="VsCode" title="VsCode" className="language_tools_block" />
 
                         <img src={PostgreSQL_logo} alt="PostgreSQL_logo" title="PostgreSQL" className="language_tools_block"/>
 
