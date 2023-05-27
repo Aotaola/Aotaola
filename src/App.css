@@ -63,7 +63,7 @@ div .App{
 }
 
 div .Navbar {
-  display: flex;
+  display: flexbox;
   justify-content: center;
   padding: 1.5rem;
   background-color: #494848;
@@ -83,6 +83,8 @@ a {
 
 .Navbar nav {
   display: flex; 
+  float: inline-end;
+  justify-content: center;
 }
 
 .Home_Route {
@@ -118,6 +120,10 @@ a {
 }
 
 div {
+  background-color: #eeeded;
+}
+
+.Contact-page {
   background-color: #eeeded;
 }
 
@@ -523,6 +529,11 @@ img .language_tool_block {
 .github-block {
   background-color: #494848;
 }
+.github-block img {
+  background-color: #3871ff;
+  border-radius: 4px;
+}
+
 .linkedin-block {
   background-color: #494848;
 }
