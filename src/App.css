@@ -1,6 +1,13 @@
-
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #eeeded;
+  height: 100vh;
+  width: 100vw;
+}
 
 :root {
+  display: flex;
   --primary-color: #3a3a3a;
   --secondary-color: #1f1f1f;
   --light-color: #eeeded;
@@ -29,7 +36,7 @@ div .App{
 }
 .Nav-container {
   background-color: rgb(30, 0, 255);
-  display: flex;
+  display: flexbox;
 
 }
 .Page-title {
@@ -63,7 +70,7 @@ div .App{
 }
 
 div .Navbar {
-  display: flexbox;
+  display: flex;
   justify-content: center;
   padding: 1.5rem;
   background-color: #494848;
@@ -123,9 +130,6 @@ div {
   background-color: #eeeded;
 }
 
-.Contact-page {
-  background-color: #eeeded;
-}
 
 div .Home{
   background-color: #fafafa;
@@ -288,8 +292,6 @@ div.language_techonology_container:hover {
   flex: 100%;
   padding: 0rem;
   background-color: #fafafa;
-  /* border-radius: 1px; */
-  /* border: 1px solid rgb(0, 0, 255); */
 }
 
 .language_tools_block {
@@ -461,16 +463,22 @@ img .language_tool_block {
 
 
 .Contact-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+ display: flex;
+ justify-content: center;
+ background-color: #eeeded;
+ height: 100vh;
+ width: 100vw;
  
 }
 
 .contact-container {
+  display: inline-block;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
   max-width: 600px;
-  padding: 50px;
+  padding-top: 2%;
+  margin-top: 6%;
   background-color: #494848;
   color:rgb(235, 235, 243);
   border-radius: 8px;
@@ -489,7 +497,7 @@ img .language_tool_block {
   align-items: flex-start;
   margin-top: 20px;
   background-color: #fafafa;
-
+  margin-top: 5%;
 }
 
 .link-block h3 {
@@ -516,7 +524,7 @@ img .language_tool_block {
   width: 60px;
 }
 
-.link-img a :hover {
+.link-img img:hover {
   width: 200px;
   height: auto;
   margin-bottom: 5px;
@@ -530,13 +538,30 @@ img .language_tool_block {
   background-color: #494848;
 }
 .github-block img {
-  background-color: #3871ff;
+  background-color: #28a2ff;
   border-radius: 4px;
 }
+
+.github-block img:hover {
+
+  background-color: #5bb8ff;
+  border-radius: 3px;
+  border-image-width: 10px;
+  border-color:#69adff
+
+}
+
+
+
 
 .linkedin-block {
   background-color: #494848;
 }
+.linkedin-block img:hover{
+  border-radius: 1%;
+  border-color: rgb(1, 1, 11);
+}
+
 .email-block {
   background-color: #494848;
 }

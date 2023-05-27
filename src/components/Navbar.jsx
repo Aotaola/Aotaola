@@ -8,14 +8,14 @@ const Navbar = () => {
            <button>
             <Link to="/">Home</Link> 
             </button> 
+            <button className="resume">
+                <a href = {Otaola_Alejandro_Resume_NY}>Resume</a>
+            </button> 
             <br/>
             <button>
                < Link to = "/Contact">Contact</Link>
             </button>
             <br/>
-            <button className="resume">
-                <a href = {Otaola_Alejandro_Resume_NY}>Resume</a>
-            </button> 
             {/* <Link to="/Resume">CV</Link>  */}
             {/* <button>
              <Link to="/Blog"> Blogs</Link> 
