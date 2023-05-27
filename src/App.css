@@ -1,13 +1,11 @@
 
-#root {
-  width: 100%;
-  height: 100vh;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  background-color: #fafafa;
-  color: #333;
-  font-family: 'motor';
+
+:root {
+  --primary-color: #3a3a3a;
+  --secondary-color: #1f1f1f;
+  --light-color: #eeeded;
+  --dark-color: #0a0a0a;
+  --font-family: 'Roboto', sans-serif;
 }
 .App {
   padding-left: 10rem;
@@ -21,16 +19,10 @@
   min-height: 100%;
 }
 
-#root {
-  width: 100%;
-  height: 100vh;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  background-color: #fafafa;
-  color: #333;
-  font-family: 'motor'
+.App-header, .Navbar, .Bio, .Resume_container, .Language_Container, .Tech_Container {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 
 div .App{
   background-color: black;
@@ -51,8 +43,14 @@ div .App{
 .App-body {
   display: inline-block;
   flex: 1; 
-  border: 1px solid rgb(0, 0, 255);
-  background-color: #494848;
+  background-color: #eeeded;
+}
+.App-body div:hover {
+  display: inline-block;
+  flex: 1; 
+  /* border: 1px solid rgb(0, 0, 255); */
+  background-color: #fafafa;
+
 }
 
 
@@ -69,9 +67,10 @@ div .Navbar {
   justify-content: center;
   padding: 1.5rem;
   background-color: #494848;
-  border: 1px solid rgb(20, 20, 239);
+  /* border: 1px solid rgb(20, 20, 239); */
   position:relative;
 }
+
 a {
   color: rgb(54, 54, 54);
 }
@@ -114,8 +113,12 @@ a {
   border-width: 1px;
  }
 
+ .Navbar button:hover, .ContactForm button:hover, .button_container button:hover, .moreButton:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 div {
-  background-color: #fafafa;
+  background-color: #eeeded;
 }
 
 div .Home{
@@ -135,7 +138,7 @@ div .Home{
   padding: 1rem;
   background-color: #0b59f4;
   border-radius: 2px;
-  border: 1px solid rgb(0, 0, 255)
+  /* border: 1px solid rgb(0, 0, 255) */
 }
 
 .Bio {
@@ -145,13 +148,21 @@ div .Home{
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   padding: 2rem;
-  border: 1px solid rgb(20, 20, 239);
+  background-color: #fafafa;
+  /* border: 1px solid rgb(20, 20, 239); */
+}
+div .Content{
+background-color: #fafafa;
 }
 
 .Home {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.Home, .Language_Container, .Tech_Container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .Profile-pic {
@@ -163,6 +174,10 @@ div .Home{
   height: auto;
   object-fit: cover;
   border-radius: 04%; 
+}
+
+.Page-title, .content_title {
+  font-family: var(--font-family);
 }
 
 .Page-title {
@@ -207,6 +222,9 @@ canvas .react-pdf__Page__canvas {
   padding-bottom: 1rem;
   
   background-color: #fafafa;
+ 
+}
+div.language_techonology_container:hover {
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255);
 }
@@ -228,10 +246,13 @@ canvas .react-pdf__Page__canvas {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #fafafa;
-  border-radius: 2px;
-  border: 1px solid rgb(0, 0, 255)  ;
+  
 }
+
+
 .language_tech_content { 
+  display: flex;
+  justify-content: center;
   margin-top: flex;
   margin-left: 0rem;
   margin-right: 0;
@@ -243,13 +264,14 @@ canvas .react-pdf__Page__canvas {
   flex: 100%;
   padding: 0rem;
   background-color: #fafafa;
-  border-radius: 2px;
-  border: 1px solid rgb(0, 0, 255);
+  
   
   
 }
 
 .tech_content {
+  display: flex;
+  justify-content: center;
   margin-top: flex;
   margin-left: none;
   margin-right: flex;
@@ -259,9 +281,9 @@ canvas .react-pdf__Page__canvas {
   align-items: left;
   flex: 100%;
   padding: 0rem;
-  background-color: transparent transparent transparent;
-  border-radius: 1px;
-  border: 1px solid rgb(0, 0, 255);
+  background-color: #fafafa;
+  /* border-radius: 1px; */
+  /* border: 1px solid rgb(0, 0, 255); */
 }
 
 .language_tools_block {
@@ -322,6 +344,10 @@ canvas .react-pdf__Page__canvas {
   justify-content: space-between
 }
 
+.language_tools_block:hover img, .tech_tools_block:hover img {
+  opacity: 0.8;
+}
+
 img .language_tool_block {
   background-color: transparent;
   border: none;
@@ -345,7 +371,7 @@ img .language_tool_block {
 
 }
 .button_container button:hover {
-  border-color: blue;
+ border-color: blue;
  border-radius: 04%;
  border-width: 1px;
 }
@@ -370,7 +396,7 @@ img .language_tool_block {
   transition: background-color 0.3s ease;
  }
  .moreButton:hover {
-  border-color: blue;
+ border-color: blue;
  border-radius: 20%;
  border-width: 1px;
 }
@@ -419,4 +445,87 @@ img .language_tool_block {
   border-color: rgb(244, 245, 247);
   border-radius: 04%;
   border-width: 1px;
+}
+.ContactForm input:focus, .ContactForm textarea:focus {
+  transition: border-color 0.3s ease;
+}
+.ContactForm input, .ContactForm textarea, .Navbar button, .button_container button, .moreButton {
+  border-radius: 4px;
+}
+
+
+.Contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+.contact-container {
+  max-width: 600px;
+  padding: 50px;
+  background-color: #494848;
+  color:rgb(235, 235, 243);
+  border-radius: 8px;
+}
+.contact-container h1 {
+  display : flex;
+  justify-content: center;
+
+}
+
+
+.link-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  background-color: #fafafa;
+
+}
+
+.link-block h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 200px;
+  color: #fafafa
+}
+
+.link-block a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #fafafa;
+}
+
+.link-img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+.link-img a :hover {
+  width: 200px;
+  height: auto;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+  border-color: #0b59f4;
+  border-width: 1px;
+}
+
+.github-block {
+  background-color: #494848;
+}
+.linkedin-block {
+  background-color: #494848;
+}
+.email-block {
+  background-color: #494848;
 }
