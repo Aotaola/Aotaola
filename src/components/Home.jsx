@@ -7,7 +7,7 @@ import htmlLogo from "./images/htmlLogo.png";
 import cssLogo from "./images/cssLogo.png"; 
 import RoR from "./images/RoR.png";
 import reactLogo from "./images/reactLogo.png";
-import OAuthLogo from "./images/OAuth.png";
+import OAuthLogo from "./images/OAuthLogo.png";
 import apiLogo from "./images/apiLogo.png";
 import BASH_SHELL from "./images/BASH_SHELL.png";
 import Github_LOGO from "./images/Github_LOGO.png";
