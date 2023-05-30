@@ -38,18 +38,11 @@ const Home = () => {
 
                 <p className="Bio">
                     <h3>About Alejandro: </h3>
-                 Hello, Im Alejandro Otaola. I am a Software Engineer based in the United states originally from Venezuela.
-                 bellow you will find some of the technologies, languages and frameworks can succesfully use in software development. 
-                 feel free to browse through and learn more about my journey and perhasps we shall collaborate in the future.
+                    Hello, I'm Alejandro Otaola. I am a Software Engineer from Venezuela, based in the United States. Below you will find some of the technologies, languages, and frameworks I can successfully use in software development. Please browse through and learn more about my journey, and perhaps we shall collaborate in the future. 
                 <br/>
                 <button onClick={handleSwitch} className="moreButton"> ... </button>
                 {readMore ? (
-                <p> My experience outside of technology is quite varied, I started my proffesional journey by majoring in International Business administration & marketing
-                    at Thomas Jefferson University, following my junior year, I decided to chase a dream of mine to become a career artist. Thanks to my background in business administration I was able to build an sustain a small business 
-                    as an artist selling merchandise as well as large art works. after persuing my creative entreprise, Grayota.com, I felt a yearning for a more technical 
-                    discipline, and through many friends in the field of software, I decided to sink my teeth into full-stack development, where I am currently pursuing a career.
-                    my expereinces have lead me to become an extreamly resourcefull and wholly dedicated person once I have a goal in mind as well as a solidified my passion for the arts 
-                    culture and most recently how AI will be influencing all mediums and alterning industries in the future. In my heart of hearts, I want to collaborate on something that moves society forward! </p>
+                <p> My experience outside of technology is quite varied. I began my professional journey by majoring in International Business Administration & Marketing at Thomas Jefferson University. Following my junior year, I decided to chase a dream being a carreer fine artist. Thanks to my background in business administration, I built and sustained a small business, selling merchandise,  large artworks & designing events/experiences for an audience. After pursuing my creative enterprise, Grayota.com, I felt a yearning for a more technical discipline. Through many friends in the field of software, I decided to delve into full-stack development, where I am currently pursuing a career. My experiences have led me to become a resourceful and wholly dedicated person once I have a goal in mind. In my heart of hearts, I want to collaborate on something that moves society forward! </p>
                 ) : null}
                     <br></br>
                 </p>
