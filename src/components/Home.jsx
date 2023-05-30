@@ -106,7 +106,7 @@ const Home = () => {
 
                     </div>
                     <br/>
-                    <h4 className = "content_title">Tools & Technologies</h4>
+                    <h4 className = "content_title">Methodologies</h4>
 
                     <div className = "tech_content">
 
