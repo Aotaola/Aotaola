@@ -33,7 +33,7 @@ const Contact = () => {
 
                          <h3> Preffered Email</h3> 
 
-                            <a href = 'Alejandro@grayota.com'>
+                            <a href = 'mailto:Alejandro@grayota.com'>
 
                                 <img src="https://www.freepnglogos.com/uploads/logo-outlook-png/file-microsoft-office-outlook-logo-present-svg-wikipedia-1.png" width="200" alt="hd microsoft outlook logo brand icon png" className="link-img"/>
 
