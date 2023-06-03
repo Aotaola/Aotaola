@@ -128,7 +128,7 @@ nav {
   justify-content: center;
   padding: 1.5rem;
   background-color: #494848;
-  /* border: 1px solid rgb(20, 20, 239); */
+
   position:relative;
 }
 
@@ -207,7 +207,7 @@ div .Home{
   padding: 1rem;
   background-color: #0b59f4;
   border-radius: 2px;
-  /* border: 1px solid rgb(0, 0, 255) */
+
 }
 
 .Bio {
@@ -218,7 +218,7 @@ div .Home{
   margin-bottom: 1rem;
   padding: 2rem;
   background-color: #fafafa;
-  /* border: 1px solid rgb(20, 20, 239); */
+  
 }
 
 div .Content{
