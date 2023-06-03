@@ -52,6 +52,7 @@ div .App{
   flex: 1; 
   background-color: #eeeded;
 }
+
 .App-body div:hover {
   display: inline-block;
   flex: 1; 
@@ -72,7 +73,7 @@ div .App{
 div .Navbar {
   display: flex;
   justify-content: center;
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
   background-color: #494848;
   /* border: 1px solid rgb(20, 20, 239); */
   position:relative;
@@ -88,15 +89,75 @@ a {
   color:rgb(127, 172, 255)
  }
 
-.Navbar nav {
+ button .nav_bttn{
+  display: center;
+  padding-left: 1rem;
+
+ }
+
+ nav {
   display: flex; 
-  float: inline-end;
+  float: center;
   justify-content: center;
 }
 
 .Home_Route {
  float: left;
 }
+
+.navcontainer {
+
+  display: flex;
+  justify-content: start;
+  padding: 1.5rem;
+  background-color: #494848;
+  /* border: 1px solid rgb(20, 20, 239); */
+  position:relative;
+
+}
+
+.cv_container {
+  display: flex;
+  justify-content: end;
+  padding: 1.5rem;
+  background-color: #494848;
+  /* border: 1px solid rgb(20, 20, 239); */
+  position:relative;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #494848;
+  /* border: 1px solid rgb(20, 20, 239); */
+  position:relative;
+}
+
+.cv_buttn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0026ff;
+  color: #ffffff;
+  text-align: center;
+  border: solid;
+  border-radius: 4px;
+  border-color: #007BFF;
+  text-decoration: none;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.cv_buttn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cv_buttn:hover {
+  background-color: #0056b3;
+}
+
+
 
 .Navbar button {
   font-size: 1.5rem;
@@ -161,6 +222,7 @@ div .Home{
   background-color: #fafafa;
   /* border: 1px solid rgb(20, 20, 239); */
 }
+
 div .Content{
 background-color: #fafafa;
 }
@@ -234,6 +296,8 @@ canvas .react-pdf__Page__canvas {
   background-color: #fafafa;
  
 }
+
+
 div.language_techonology_container:hover {
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 255);
@@ -633,4 +697,8 @@ button a {
 
 button a:hover {
   color: #ddd;
+}
+
+.cv_buttn {
+
 }

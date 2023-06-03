@@ -1,25 +1,7 @@
-// import React, { useState } from "react";
+
 import React from "react";
 
 const Contact = () => {
-    // const [formState, setFormState] = useState({
-    //     name: '',
-    //     email: '',
-    //     message: '',
-    // });
-
-    // const handleChange = (e) => {
-    //     setFormState({
-    //         ...formState,
-    //         [e.target.name]: e.target.value,
-    //     });
-    // };
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     console.log('Submitted contact form:', formState);
-       
-    // };
 
     return ( 
         <div className="Contact-page">
