@@ -117,10 +117,10 @@ a {
 
 .cv_container {
   display: flex-end;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 1.5rem;
   background-color: #494848;
-  position: end;
+  
 }
 
 nav {
