@@ -13,19 +13,20 @@ const Navbar = () => {
             </button> 
             <br/>
             <button className="nav_buttn">
-               < Link to = "./Contact">Contact</Link>
+               < Link to = "/Contact">Contact</Link>
             </button>
             <br/>
             </nav>
 
          </div>
-         <br/>
+        
          <div className="cv_container">
 
             <button className="cv_buttn">
                 <a href = {Otaola_Alejandro_Resume_FL}>Resume</a>
             </button> 
          </div>
+         
         </div>
      );
 }
