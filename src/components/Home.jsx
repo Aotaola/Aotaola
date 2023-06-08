@@ -38,8 +38,7 @@ const Home = () => {
 
                 <p className="Bio">
                     <h3>About Alejandro: </h3>
-                    Hello, I'm Alejandro Otaola. I am a Software Engineer from Venezuela,
-                     based in the United States. Below you will find some of the technologies,
+                    Hello, I'm Alejandro Otaola. I am a Software Engineer in the United States. Below you will find some of the technologies,
                       languages, and frameworks I can successfully use in software development. 
                       Please browse through and learn more about my journey, and perhaps we shall collaborate in the future. 
                 <br/>
