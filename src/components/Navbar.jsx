@@ -17,7 +17,7 @@ const Navbar = () => {
                       </button>
                              <br/>
                     <button className="nav_buttn">
-                        <Link to = "/Demo">Project Demos </Link>
+                        <Link to = "/Demos"> Demos </Link>
                     </button>
                     
                  </nav>
