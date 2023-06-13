@@ -16,6 +16,10 @@ const Navbar = () => {
                          < Link to = "/Contact">Contact</Link>
                       </button>
                              <br/>
+                    <button className="nav_buttn">
+                        <Link to = "/Demos"> Demos </Link>
+                    </button>
+                    
                  </nav>
 
                  </div>
