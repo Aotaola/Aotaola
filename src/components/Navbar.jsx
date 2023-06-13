@@ -23,7 +23,7 @@ const Navbar = () => {
              <div className="cv_container">
 
                     <button className="cv_buttn">
-                      <a href={Otaola_Alejandro_Resume_FL}>Resume</a>
+                      <a href={Otaola_Alejandro_Resume_FL} target = "_blank" rel="noopener noreferrer">Resume</a>
                     </button> 
              </div>
          

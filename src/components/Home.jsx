@@ -44,15 +44,19 @@ const Home = () => {
                 <br/>
                 <button onClick={handleSwitch} className="moreButton"> ... </button>
                 {readMore ? (
-                <p> My experience outside of technology is quite varied. I began my professional journey by majoring in International Business Administration & Marketing 
-                    at Thomas Jefferson University. Following my junior year, 
-                    I decided to chase a dream being a carreer fine artist. Thanks to my background in business administration,
-                     I built and sustained a small business, selling merchandise,  large artworks & designing events/experiences for an audience. 
-                     After pursuing my creative enterprise, Grayota.com, 
-                     I felt a yearning for a more technical discipline. Through many friends in the field of software,
-                      I decided to delve into full-stack development, where I am currently pursuing a career. 
-                      My experiences have led me to become a resourceful and wholly dedicated person once I have a goal in mind. In my heart of hearts,
-                       I want to collaborate on something that moves society forward! </p>
+                <p>My experience outside of technology is quite varied. 
+                    I began my professional journey by majoring in International Business Administration & Marketing at Thomas Jefferson University.
+                     Following my junior year, I decided to chase my dream of being a career fine artist.
+                      Thanks to my background in business administration, I built and sustained a small business, 
+                      selling merchandise, large artworks & designing events/experiences for an audience.
+                       After pursuing my creative enterprise, Grayota.com, I felt a yearning for a more technical discipline. 
+                       Through many friends in the field of software, I decided to delve into full-stack development, where I am currently pursuing a career.
+                        My experiences have led me to become a resourceful and wholly dedicated person once I have a goal in mind.
+                         In my heart of hearts,
+                     I want to collaborate on something that moves society forward!
+
+
+                </p>
                 ) : null}
                     <br></br>
                 </p>
