@@ -12,7 +12,8 @@ const Demos = () => {
             <div className="demos-content">
                 <div className="player-wrapper">
                     <ReactPlayer url = {NightlifeApp}
-                        controls                    
+                        controls   
+                        playbackRate={1.25}                 
                     />
                 </div>
             </div>
