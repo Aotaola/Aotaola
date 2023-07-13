@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Otaola_Alejandro_Resume_FL from "./files/Otaola_Alejandro_Resume_FL.pdf";
+import Otaola_Alejandro_Resume_NY from "./files/Otaola_Alejandro_Resume_NY.pdf";
 
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
              <div className="cv_container">
 
                     <button className="cv_buttn">
-                      <a href={Otaola_Alejandro_Resume_FL} target = "_blank" rel="noopener noreferrer">Resume</a>
+                      <a href={Otaola_Alejandro_Resume_NY} target = "_blank" rel="noopener noreferrer">Resume</a>
                     </button> 
              </div>
          
