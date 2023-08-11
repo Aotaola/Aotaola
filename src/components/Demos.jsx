@@ -18,6 +18,9 @@ const Demos = () => {
                         controls   
                         playbackRate={1.25}/>
                 </div>
+                    <button className="demo-visit-button">
+                        <a href = "https://sapiam-f41e9ce79228.herokuapp.com/" > Visit Sapiam </a>
+                    </button>
                 <br/>
                 <div className="player-wrapper">
                     <ReactPlayer url = {NightlifeApp}
