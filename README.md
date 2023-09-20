@@ -1,28 +1,21 @@
-# Hi welcome to my GitHub!
+# Welcome to My GitHub!
 
-I'm Alejandro Otaola, a Full-Stack Software Engineer. 
-I'm also a painter and illustrator by passion. currently diving into film photography & I have a background in business,
-holding a bachelors of science in International Business and marketing.
+👋 Hi, I'm Alejandro Otaola, a Full-Stack Software Engineer with a penchant for creativity and business acumen. Beyond coding, my strokes create paintings, illustrations, and recently, capture moments through film photography. With a solid foundation in business, I hold a Bachelor of Science in International Business and Marketing.
 
-## TOOLS AND TECH!
+## 🛠 Tools & Technologies
 
-I have strong experience using the following to enhance, build, test, and launch applications:
+- **Environments & Tools**: Linux, Git, GitHub, PostgreSQL, MySQL, SQLite, Jest, Webpack, NPM, Yarn, Heroku, Expo, Xcode
+- **Languages**: JavaScript, Ruby, CSS, HTML, SQL, TypeScript, Python
+- **Frameworks**: Rails (for Ruby), React & React Native (for JavaScript)
 
-Linux, Git, Github(hello), PostgreSQL, MySQL, APIs, SQLite, Jest, Webpack, NPM,
-Expo, Yarn, Heroku
+## 🌱 Methodologies
 
-### LANGUAGES!
+Throughout my career, I've adapted and refined my approach to software development, often integrating:
+- Agile Development
+- RESTful API Design
+- DRY (Don't Repeat Yourself) Principle
+- SOLID Design Principles
 
-I excel with the following languages and am ready and able to use them in a large codebase. thought I am always expanding to learn more:
+---
 
-Javascript, Ruby, CSS, HTML, SQL, Typescript & Python.
-
-### FRAMEWORKS
-
-for the languages above, I prefer to work on the following frameworks to enhance my workflow:
-
-Rails(Ruby), React(Js). React Native(js)
-
-### METHODOLOGIES
-My work includes the following approaches with care:
-Agile, RESTful API, DRY, SOLID, 
+Thank you for stopping by and exploring my work. Always keen to collaborate, learn, and create! 🚀🎨📸
