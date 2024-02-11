@@ -9,7 +9,6 @@ import cssLogo from "./images/cssLogo.png";
 import python from "./images/python.png";
 import RoR from "./images/RoR.png";
 import reactLogo from "./images/reactLogo.png";
-import OAuthLogo from "./images/OAuthLogo.png";
 import apiLogo from "./images/apiLogo.png";
 import linux from "./images/linux.png";
 import Github_LOGO from "./images/Github_LOGO.png";
