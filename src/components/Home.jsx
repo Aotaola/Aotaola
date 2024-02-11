@@ -20,17 +20,12 @@ import Pandas from "./images/Pandas.png";
 import aws from "./images/aws.png";
 import { useState } from "react";
 
-
-
 const Home = () => {
-
     const [readMore, setReadMore] = useState(false)
 
     const  handleSwitch = () => {
         setReadMore(readMore => !readMore);
     };
-
-
 
     return (
         <>
