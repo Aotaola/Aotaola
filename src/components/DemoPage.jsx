@@ -11,7 +11,7 @@ const DemoPage = () => {
     setSelectedVideo(videoId);
     demosRef.current.scrollIntoView({ behavior: 'smooth' });
   };
-
+  
   return (
     <div className="demos-container">
     <div className="videos-menu">

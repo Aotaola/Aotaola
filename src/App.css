@@ -759,31 +759,35 @@ button a:hover {
 }
 
 /* Updated CSS for specific elements */
-
-/* Updated CSS for a horizontal menu */
+/* Original Layout with Improved Cosmetics */
 
 .demos-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Adjust the maximum width as needed */
+  width: 80%;
   margin: 0 auto;
   padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .videos-menu {
   display: flex;
-  flex-direction: row; /* Set to row to make it horizontal */
+  flex-direction: row;
   align-items: center;
-  width: 80%; /* Adjust the maximum width as needed */
-  gap: 10px; /* Adjust the gap between items */
+  width: 80%;
+  gap: 10px;
 }
 
 .videos-menu h3 {
-  font-size: 18px;
-  margin-right: 10px; /* Adjust the margin between title and items */
-  background-color: gray;
-
+  font-size: 20px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
 }
 
 .videos-menu ul {
@@ -791,13 +795,12 @@ button a:hover {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-direction: row; /* Set to row to make it horizontal */
-  background-color: gray;
+  flex-direction: row;
 }
 
 .videos-menu li {
   align-items: center;
-  margin-right: 10px; /* Adjust the margin between items */
+  margin-right: 10px;
 }
 
 .videos-menu a {
@@ -806,14 +809,15 @@ button a:hover {
   align-items: center;
   align-content: center;
   text-decoration: none;
-  color: blue;
-  font-size: 20px;
+  color: #007bff;
+  font-size: 18px;
   padding: 8px;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 .videos-menu a:hover {
-  background-color: #ddd; /* Hover background color */
-  font-size: 22px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
 }
