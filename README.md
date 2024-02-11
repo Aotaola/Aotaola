@@ -1,12 +1,13 @@
 # Welcome to My GitHub!
 
-👋 Hi, I'm Alejandro Otaola, a Full-Stack Software Engineer with a penchant for creativity and business acumen. Beyond coding, my strokes create paintings, illustrations, and recently, capture moments through film photography. With a solid foundation in business, I hold a Bachelor of Science in International Business and Marketing.
+👋 Hi, I'm Alejandro Otaola, a Software Engineer with a penchant for creativity and business acumen. Beyond coding, my strokes create paintings, illustrations, and recently, capture moments through film photography. With a solid foundation in business, I hold a Bachelor of Science in International Business and Marketing.
+p.s Im hoping to find a good place to learn wood carving.
 
 ## 🛠 Tools & Technologies
 
-- **Environments & Tools**: Linux, Git, GitHub, PostgreSQL, MySQL, SQLite, Jest, Webpack, NPM, Yarn, Heroku, Expo, Xcode
-- **Languages**: JavaScript, Ruby, CSS, HTML, SQL, TypeScript, Python
-- **Frameworks**: Rails (for Ruby), React & React Native (for JavaScript)
+- **Environments & Tools**: Numpy, Pandas, Git, GitHub, PostgreSQL, MySQL, SQLite, MySQL Workbench, Webpack, NPM, Yarn, Heroku, Expo, Xcode, Linux.
+- **Languages**: Python, JavaScript, Ruby, CSS, HTML, SQL, TypeScript.
+- **Frameworks**: Flask, Rails, React & React Native.
 
 ## 🌱 Methodologies
 
