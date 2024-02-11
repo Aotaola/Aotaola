@@ -745,6 +745,7 @@ button a:hover {
   position: relative;
   background-color: #252424;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px; /* Adds some space below each video */
@@ -756,6 +757,12 @@ button a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #363636;
+  width: 50%;
 }
 
 /* Updated CSS for specific elements */

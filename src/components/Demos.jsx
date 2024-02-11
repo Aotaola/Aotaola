@@ -52,10 +52,13 @@ const Demos = ({ selectedVideo, demosRef }) => {
                   <div className="player-wrapper">
                     <ReactPlayer url={sapiam_Demo} controls playbackRate={1.25} />
                   </div>
-                  <button className="demo-visit-button">
-                    <a href="https://sapiam-f41e9ce79228.herokuapp.com/">Visit Sapiam</a>
-                  </button>
-                </div>
+                    <button className="demo-visit-button">
+                      <a href="https://sapiam-f41e9ce79228.herokuapp.com/">Visit Sapiam</a>
+                    </button>
+                    <button className="demo-visit-button">
+                      <a href="https://github.com/Aotaola/Sapiam">Github</a>
+                    </button>
+                  </div>
               )}
               {selectedVideo === 'nightlifeApp' && (
                 <div id="nightlifeApp" className="demos-content">
