@@ -3,17 +3,22 @@ import profile_pic from "./images/profile_pic.png";
 import rubyLogo from "./images/rubyLogo.png";
 import javascriptLogo from "./images/javascriptLogo.png";
 import sqlLogo from "./images/sqlLogo.png";
+import flask from "./images/flask.png";
 import htmlLogo from "./images/htmlLogo.png";
 import cssLogo from "./images/cssLogo.png"; 
+import python from "./images/python.png";
 import RoR from "./images/RoR.png";
 import reactLogo from "./images/reactLogo.png";
 import OAuthLogo from "./images/OAuthLogo.png";
 import apiLogo from "./images/apiLogo.png";
-import BASH_SHELL from "./images/BASH_SHELL.png";
+import linux from "./images/linux.png";
 import Github_LOGO from "./images/Github_LOGO.png";
 import vscodeLogo from "./images/vscodeLogo.png";
 import PostgreSQL_logo from "./images/PostgreSQL_logo.png";
-import Agile_logo from "./images/Agile_logo.png";
+import mysql_workbench from "./images/mysql_workbench.png";
+import numpy from "./images/numpy.png";
+import Pandas from "./images/Pandas.png";
+import aws from "./images/aws.png";
 import { useState } from "react";
 
 
@@ -29,9 +34,7 @@ const Home = () => {
 
 
     return (
-
         <>
-
         <div className="Home">
          
              <div className="Content">
@@ -54,8 +57,6 @@ const Home = () => {
                         My experiences have led me to become a resourceful and wholly dedicated person once I have a goal in mind.
                          In my heart of hearts,
                      I want to collaborate on something that moves society forward!
-
-
                 </p>
                 ) : null}
                     <br></br>
@@ -73,6 +74,8 @@ const Home = () => {
                 <h4 className = "content_title">Languages</h4>
                 <div className="language_tech_content">
 
+                    <img src={python} alt="python" title="Python" className="language_tools_block" />
+
                     <img src={rubyLogo} alt="Ruby" title="Ruby" className="language_tools_block" />
 
                     <img src={javascriptLogo} alt="Javascript" title="Javascript" className="language_tools_block" />
@@ -87,6 +90,7 @@ const Home = () => {
                  <br></br>
                  <h4 className = "content_title">Frameworks</h4>
                  <div className="language_tech_content">
+                 <img src={flask} alt="Flask" title="Flask" className="tech_tools_block" />
 
                  <img src={RoR} alt="Rails" title="Rails" className="tech_tools_block" />
 
@@ -98,30 +102,28 @@ const Home = () => {
             <div className="Tech_Container">
                 <h4 className = "content_title">Tools & Technologies</h4>
                 <div className = "tech_content">
-                    
-                         <img src={OAuthLogo} alt="OAuth" title="OAuth" className="tech_tools_block" />
+                    <img src={aws} alt="Aws" title="Aws" className="language_tools_block"/>
 
-                         <img src={apiLogo} alt="API" title="API" className="tech_tools_block" />
+                    <img src={apiLogo} alt="API" title="API" className="tech_tools_block" />
 
-                         <img src={BASH_SHELL} alt="Bash/Shell" title="Bash/Shell" className="tech_tools_block" />
+                    <img src={linux} alt="Linux" title="Linux" className="tech_tools_block" />
 
-                         <img src={Github_LOGO} alt="Github" title="Github" className="tech_tools_block" />
+                    <img src={Github_LOGO} alt="Github" title="Github" className="tech_tools_block" />
 
-                        <img src={vscodeLogo} alt="VsCode" title="VsCode" className="language_tools_block" />
+                    <img src={vscodeLogo} alt="VsCode" title="VsCode" className="language_tools_block" />
 
-                        <img src={PostgreSQL_logo} alt="PostgreSQL_logo" title="PostgreSQL" className="language_tools_block"/>
+                    <img src={Pandas} alt="Pandas" title="Pandas" className="language_tools_block" />
 
-                    </div>
+                </div>
                     <br/>
-                    <h4 className = "content_title">Methodologies</h4>
-
                     <div className = "tech_content">
+                    <img src={PostgreSQL_logo} alt="PostgreSQL_logo" title="PostgreSQL" className="language_tools_block"/>
 
-                    <img src={Agile_logo} alt="Agile" title="Agile" className="language_tools_block"/>
+                    <img src={numpy} alt="Numpy" title="Numpy" className="language_tools_block"/>
 
-                    <img src="https://www.clipartmax.com/png/middle/285-2851044_restful-search-api-rest-web-services-logo.png" alt="Restful Search Api - Rest Web Services Logo@clipartmax.com" className="language_tools_block"></img>
+                    <img src={mysql_workbench} alt="MySQL Workbench" title="MySQL Workbench" className="language_tools_block"></img>
         
-                     </div>
+                    </div>
                 </div>
         </div>
         <br></br>
