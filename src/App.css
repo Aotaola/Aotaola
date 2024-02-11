@@ -741,7 +741,7 @@ button a:hover {
 
 .player-wrapper {
   width: 100%; /* Takes full width of the parent */
-  height: 50vh; /* Adjust this to your desired height */
+  height: 90vh; /* Adjust this to your desired height */
   position: relative;
   background-color: #252424;
   display: flex;
