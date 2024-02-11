@@ -18,6 +18,9 @@ const Demos = ({ selectedVideo, demosRef }) => {
                      height='95%'
                     src="https://www.loom.com/embed/edcbe895c8ce499ba8059f71d8095ade?sid=b93dd829-51db-4dd7-996c-0c0575bdaef0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen >
                     </iframe>
+                    <button className="demo-visit-button">
+                    <a href="https://github.com/Aotaola/SpearHead_2.0">Github</a>
+                  </button>
                 </div>
               )}
               {selectedVideo === 'Spearhead_Admin_Platform' && (
@@ -27,6 +30,9 @@ const Demos = ({ selectedVideo, demosRef }) => {
                     height='95%'
                      src="https://www.loom.com/embed/f4daf59699c6421aaf5bc8b255c3c90d?sid=05e82a5b-203a-40e7-a48d-2e34dc5e5a62" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
                     </iframe>
+                    <button className="demo-visit-button">
+                    <a href="https://github.com/Aotaola/Spearhead_admin_platform">Github</a>
+                    </button>
                 </div>
               )}
                 {selectedVideo === 'Spearhead_Admin_Platform_2' && (
@@ -36,6 +42,9 @@ const Demos = ({ selectedVideo, demosRef }) => {
                     width='95%'
                     height='95%'
                     src="https://www.loom.com/embed/9f7297a697414990ad2f9014cafb6482?sid=02e1d0fd-4f28-4e12-b3dd-75ef3d0656dd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <button className="demo-visit-button">
+                    <a href="https://github.com/Aotaola/Spearhead_admin_platform">Github</a>
+                    </button>
                 </div>
               )}
               {selectedVideo === 'sapiam' && (
@@ -53,6 +62,9 @@ const Demos = ({ selectedVideo, demosRef }) => {
                   <div className="player-wrapper">
                     <ReactPlayer url={NightlifeApp} controls playbackRate={1.25} />
                   </div>
+                  <button className="demo-visit-button">
+                    <a href="https://github.com/Aotaola/Playwright">Github</a>
+                  </button>
                 </div>
               )}
               <br />
