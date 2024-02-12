@@ -47,7 +47,7 @@ const Home = () => {
                       Thanks to my background in business administration, I built and sustained a small business, 
                       selling merchandise, large artworks & designing events/experiences for an audience.
                        After pursuing my creative enterprise, Grayota.com, I felt a yearning for a more technical discipline. 
-                       Through many friends in the field of software, I decided to delve into full-stack development, where I am currently pursuing a career.
+                       Through many friends in the field of software, I decided to delve into Data Engineering, where I am currently pursuing a career.
                         My experiences have led me to become a resourceful and wholly dedicated person once I have a goal in mind.
                          In my heart of hearts,
                      I want to collaborate on something that moves society forward!
